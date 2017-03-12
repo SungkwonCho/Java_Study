@@ -21,7 +21,9 @@ public class Stack_Tester {
 		System.out.println(stack.peek());     
 		stack.pop();
 		System.out.println(stack.peek());	
+		stack.pop();        
 		
-		stack.pop();          // IF maxSize : 3 -> (top == -1) / Exception : ArrayIndexOutOfBoundsException
+      // Exception : ArrayIndexOutOfBoundsException / maxSize : 4 -> (top == -1) 
+		 stack.pop();
 	}
 }

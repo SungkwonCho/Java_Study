@@ -37,7 +37,7 @@ public class Stack {
 	
 	public void pop()                     // top's value --
 	{
-		--top;
 		if(empty()) throw new ArrayIndexOutOfBoundsException();
+		--top;
 	}
 }
