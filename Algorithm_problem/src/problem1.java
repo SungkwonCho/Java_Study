@@ -1,3 +1,9 @@
+/*
+ * Problem. 1 
+ * 
+ *  print 3 or 5's multiples
+ */
+
 public class problem1 
 {	
 	public static void main(String[] args)
